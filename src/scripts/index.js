@@ -2,6 +2,7 @@ import '../styles/index.scss';
 
 const audios = document.querySelectorAll('audio');
 const kbd = document.querySelector('.kbd');
+const input = document.querySelector('.input');
 
 window.addEventListener('keypress', e => {
   const audio = document.querySelector(`audio[data-key='${e.key}']`);
@@ -21,5 +22,5 @@ audios.forEach(audio => {
 });
 
 kbd.addEventListener('click', () => {
-  kbd.focus();
+  input.focus();
 });
