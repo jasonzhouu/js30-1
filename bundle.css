@@ -1,4 +1,6 @@
-.app{min-height:100vh}.playing{background:red;box-shadow:0 0 1rem 0.25rem rgba(0,0,0,0.25)}.playing:hover{background:red}
+@import url(https://fonts.googleapis.com/css?family=Bad+Script|Bowlby+One+SC&display=swap);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css);
+*,*::after,*::before{box-sizing:border-box}html{font-size:16px}body{padding:1rem;font-family:"Bowlby One SC",cursive;display:grid;grid-template:auto 1fr / 1fr;grid-gap:1rem;min-height:100vh;height:100%}header{display:grid;grid-template:auto auto / 1fr;justify-items:center;align-content:center;min-height:8rem;height:100%}main{display:grid;grid-template:auto/repeat(3, 1fr);grid-gap:1rem 1rem;grid-auto-flow:dense}@media screen and (min-width: 720px){main{grid-template:auto/repeat(4, 1fr)}}.h1,a{font-family:"Bad Script",cursive}.h1{margin:0 0 1rem;padding:0}a{font-size:1.25rem}button{border:none;margin:0;padding:0;width:auto;overflow:visible;background:transparent;color:inherit;font:inherit;line-height:normal;-webkit-font-smoothing:inherit;-moz-osx-font-smoothing:inherit;-webkit-appearance:none;font-size:2rem;border:0.1rem solid #000;border-radius:.25rem}button::-moz-focus-inner{border:0;padding:0}button:hover{cursor:pointer}.playing{color:#fff;background:#000;box-shadow:0 0 1rem 0.25rem rgba(0,0,0,0.25)}.playing:hover{color:#fff;background:#000}.hidden{display:none}
 
 
 /*# sourceMappingURL=bundle.css.map*/
