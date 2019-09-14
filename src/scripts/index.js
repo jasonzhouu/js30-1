@@ -29,6 +29,7 @@ audios.forEach(audio => {
 });
 
 kbd.addEventListener('click', () => {
+  console.log('here');
   input.focus();
 });
 
