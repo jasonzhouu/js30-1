@@ -1,4 +1,4 @@
-.app{min-height:100vh}.playing{background:red;box-shadow:0 0 1rem 0.25rem rgba(0,0,0,0.25)}
+.app{min-height:100vh}.playing{background:red;box-shadow:0 0 1rem 0.25rem rgba(0,0,0,0.25)}.playing:hover{background:red}
 
 
 /*# sourceMappingURL=bundle.css.map*/
