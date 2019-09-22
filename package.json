@@ -9,6 +9,9 @@
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d build"
   },
+  "engines": {
+    "node": "8.11.1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wbkd/webpack-starter.git"
@@ -51,6 +54,7 @@
   "dependencies": {
     "@babel/polyfill": "^7.4.0",
     "core-js": "^3.0.1",
+    "express": "^4.17.1",
     "gh-pages": "^2.1.1"
   }
 }
