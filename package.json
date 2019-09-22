@@ -5,9 +5,10 @@
   "homepage": "j≈v",
   "scripts": {
     "build": "NODE_ENV=production webpack --config webpack/webpack.config.prod.js  --colors",
-    "start": "webpack-dev-server --open --config webpack/webpack.config.dev.js",
+    "dev": "webpack-dev-server --open --config webpack/webpack.config.dev.js",
     "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "start": "node server.js"
   },
   "engines": {
     "node": "8.11.1"
