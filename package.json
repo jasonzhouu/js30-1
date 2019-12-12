@@ -8,7 +8,7 @@
     "dev": "webpack-dev-server --open --config webpack/webpack.config.dev.js",
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d build",
-    "start": "node server.js"
+    "start": "node app.js"
   },
   "engines": {
     "node": "8.11.1"
